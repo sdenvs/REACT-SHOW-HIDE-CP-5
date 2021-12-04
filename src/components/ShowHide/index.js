@@ -4,7 +4,7 @@ import './index.css'
 import {Component} from 'react'
 
 class ShowHide extends Component {
-  state = {showFirst: true, showLast: true}
+  state = {showFirst: false, showLast: false}
 
   showHideFirst = () => {
     const {showFirst} = this.state
