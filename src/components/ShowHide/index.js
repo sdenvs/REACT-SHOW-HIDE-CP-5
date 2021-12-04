@@ -34,13 +34,13 @@ class ShowHide extends Component {
             <button onClick={this.showHideFirst} className="button">
               Show/Hide Firstname
             </button>
-            {showFirst && <h1 className="nameBox">Joe</h1>}
+            {showFirst && <p className="nameBox">Joe</p>}
           </div>
           <div>
             <button onClick={this.showHideLast} className="button">
               Show/Hide Lastname
             </button>
-            {showLast && <h1 className="nameBox">Jonas</h1>}
+            {showLast && <p className="nameBox">Jonas</p>}
           </div>
         </div>
       </div>
